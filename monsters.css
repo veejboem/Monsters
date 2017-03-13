@@ -1,0 +1,37 @@
+
+*,
+*::before,
+*::after {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ background-color: black;
+ color: white;
+ text-align: center;
+
+}
+
+body {
+ font-family: 'Rancho', cursive;
+ margin: 0;
+ position: relative;
+}
+
+h1 {
+  padding: 11% 0;
+}
+
+main {
+  padding: 15% 10%;
+}
+
+.welcome {
+  font-size: 4em;
+}
+
+.Frankenstein, .Wolfman, .Dracula {
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid white;
+  margin: 8%;
+}
